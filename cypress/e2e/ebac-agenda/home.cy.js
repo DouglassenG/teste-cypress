@@ -2,6 +2,6 @@
 
 describe('Teste para agenda-contatos', () => {
     it('Deve incluir um novo contato', () => {
-        cy.get()
+        cy.get('sc-gLDzan ckeKmo input').type
     })
 })
