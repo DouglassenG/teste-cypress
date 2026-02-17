@@ -5,7 +5,7 @@ describe('Teste para agenda-contatos', () => {
         cy.visit('https://ebac-agenda-contatos-tan.vercel.app/')
     })
 
-    it('Deve adicionar um novo contato', () => {        
+    it('Deve adicionar um novo contato', () => {     
         cy.get('input[type="text"]').type('João da Silva')
         cy.get('input[type="email"]').type('joao@exemplo.com')
         cy.get('input[type="tel"]').type('11987654321')
