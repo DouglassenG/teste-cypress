@@ -6,5 +6,6 @@ describe('Teste para agenda-contatos', () => {
         cy.get('input[type="text"]').type('João da Silva')
         cy.get('input[type="email"]').type('joao@exemplo.com')
         cy.get('input[type="tel"]').type('11987654321')
+        cy.get('button[type="submit"]').click()
     })
 })
